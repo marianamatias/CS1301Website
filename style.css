@@ -1,0 +1,98 @@
+/* style.css - Note that you need to fill this in yourself! */
+
+body {
+    font: 20px "Courier New", Courier, monospace;
+    background: #d4defc
+}
+
+.button {
+    background: #f7779d;
+	border: 5px solid white;
+    width: 700px;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    font-size: 50px;
+    -webkit-transition: all .5s; /* For Safari 3.1 to 6.0 */
+    transition: all .5s;
+}
+
+.button:hover {
+	background: #ff8fad;
+
+}
+
+.description {
+	background: #f7779d;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
+
+
+h1{
+	font: 30px "Courier New", Courier, monospace;
+}
+
+p {
+    font: 22px "Courier New", Courier, monospace;
+    color: #a87760;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    /* font-weight: bold; */
+}
+
+/* p:hover{
+	color: #ff678b;
+} */
+
+h2{
+	font: 50px "Courier New", Courier, monospace;
+    color: #a87760;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+
+}
+
+h2:hover{
+	color: #da5778;
+}
+
+
+table, tr, td{
+	background: #ff678b ;
+	border: 1px solid white;
+	color: white;
+	padding:15px;
+	margin:auto;
+	text-align: center;
+	transition: all .5s;
+}
+
+table:hover {
+	background: #ff8fad;
+}
+
+td:hover{
+	background: #df5a7b;
+}
+
+img{
+	padding-top: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+	color: #a87561;
+}
